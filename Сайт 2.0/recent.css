@@ -1,0 +1,465 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: linear-gradient(180deg, #2d2d2d 0%, #100d0d 100%);
+}
+
+.img {
+  position: absolute;
+}
+
+.logo_paneli {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  width: 1465px;
+  height: 48px;
+  left: 110px;
+  top: 60px;
+}
+.paneli_ypravlenia {
+  width: 800px;
+  height: 48px;
+  margin-left: 697px;
+  margin-top: -2px;
+  display: flex;
+  justify-content: end;
+  justify-content: space-around;
+}
+
+.fon {
+  color: #ffffff;
+  background-color: transparent;
+  border: transparent;
+  margin-top: 13.5px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+#vipad {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: transparent;
+  background: transparent;
+  border: transparent;
+  color: #ffffff;
+}
+
+.nav {
+  margin: 13px;
+  background-color: transparent;
+}
+
+.nav-a {
+  color: #ffffff;
+}
+
+.nav-ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  position: relative;
+}
+
+.nav-ul-li {
+  display: inline-block;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+/* Hide Dropdowns by Default */
+.nav-ul-ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+  color: #ffffff;
+  width: 150px;
+}
+
+/* Display Dropdowns on Hover */
+.nav-ul-li:hover > ul {
+  display: inherit;
+}
+
+.poisc {
+  margin-left: -100px;
+  background-color: transparent;
+  border: transparent;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.linia {
+  width: 300px;
+}
+
+.lizagolovoc {
+  position: absolute;
+  width: 548px;
+  height: 0px;
+  left: -35px;
+  top: 232px;
+}
+
+.zagolovocrece {
+  position: absolute;
+  width: 361px;
+  height: 70px;
+  left: 570px;
+  top: 192px;
+
+  font-family: "Be Vietnam";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 70px;
+
+  color: #ffffff;
+}
+
+.textrecent {
+  position: absolute;
+  width: 723px;
+  height: 74px;
+  left: 382px;
+  top: 291px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+
+.foto1 {
+  position: absolute;
+  width: 282.74px;
+  height: 195.5px;
+  left: 299px;
+  top: 454px;
+
+  background: url(imgix-klWUhr-wPJ8-unsplash.jpg);
+  filter: drop-shadow(-25px -25px 35px rgba(0, 0, 0, 0.25))
+    drop-shadow(25px 25px 35px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(2px);
+}
+
+.foto1-1 {
+  position: absolute;
+  width: 282.74px;
+  height: 229.13px;
+  left: 299.32px;
+  top: 587.49px;
+  z-index: -1;
+  background: linear-gradient(180deg, #1f1f1f 0%, #151515 100%);
+  box-shadow: -25px -25px 35px rgba(0, 0, 0, 0.25),
+    25px 25px 35px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+}
+
+.data1 {
+  position: absolute;
+  width: 252.26px;
+  height: 15.77px;
+  left: 370px;
+  top: 730px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.text-data1 {
+  position: absolute;
+  width: 239px;
+  height: 55px;
+  left: 370px;
+  top: 750px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.more1 {
+  position: absolute;
+  width: 80.93px;
+  height: 14.71px;
+  left: 370px;
+  top: 850px;
+  background-color: #ffffff;
+}
+
+.foto2 {
+  position: absolute;
+  width: 282.74px;
+  height: 195.5px;
+  left: 604.13px;
+  top: 454px;
+
+  background: url(pankaj-patel-1IW4HQuauSU-unsplash.jpg);
+  filter: drop-shadow(-25px -25px 35px rgba(0, 0, 0, 0.25))
+    drop-shadow(25px 25px 35px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(2px);
+}
+
+.foto1-2 {
+  position: absolute;
+  width: 282.74px;
+  height: 229.13px;
+  left: 604.13px;
+  top: 587.49px;
+  z-index: -1;
+  background: linear-gradient(180deg, #1f1f1f 0%, #151515 100%);
+  box-shadow: -25px -25px 35px rgba(0, 0, 0, 0.25),
+    25px 25px 35px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+}
+
+.data2 {
+  position: absolute;
+  width: 252.26px;
+  height: 15.77px;
+  left: 675px;
+  top: 730px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.text-data2 {
+  position: absolute;
+  width: 239px;
+  height: 55px;
+  left: 675px;
+  top: 750px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.more2 {
+  position: absolute;
+  width: 94px;
+  height: 14.71px;
+  left: 675px;
+  top: 850px;
+
+  background: #ffffff;
+}
+
+.foto3 {
+  position: absolute;
+  width: 282.74px;
+  height: 195.5px;
+  left: 908.94px;
+  top: 454px;
+  background: url(arif-riyanto-vJP-wZ6hGBg-unsplash.jpg);
+  filter: drop-shadow(-25px -25px 35px rgba(0, 0, 0, 0.25))
+    drop-shadow(25px 25px 35px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(2px);
+}
+
+.foto1-3 {
+  position: absolute;
+  width: 282.74px;
+  height: 229.13px;
+  left: 908.94px;
+  top: 587.49px;
+  z-index: -1;
+  background: linear-gradient(180deg, #1f1f1f 0%, #151515 100%);
+  box-shadow: -25px -25px 35px rgba(0, 0, 0, 0.25),
+    25px 25px 35px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+}
+
+.data3 {
+  position: absolute;
+  width: 252.26px;
+  height: 15.77px;
+  left: 980px;
+  top: 730px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.text-data3 {
+  position: absolute;
+  width: 239px;
+  height: 55px;
+  left: 980px;
+  top: 750px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+
+.more3 {
+  position: absolute;
+  width: 94px;
+  height: 14.71px;
+  left: 980px;
+  top: 850px;
+  background-color: #ffffff;
+}
+
+.perehod {
+  position: absolute;
+  left: 11.7%;
+  top: 73.2%;
+  bottom: 22.02%;
+  color: #ffffff;
+  transform: rotate(-74.54deg);
+}
+
+.perehod-centr {
+  position: absolute;
+  width: 72px;
+  left: 130px;
+  top: 732px;
+  transform: rotate(-74.54deg);
+}
+
+.perehod-centr1 {
+  position: absolute;
+  width: 233px;
+  height: 234px;
+  left: 50px;
+  top: 650px;
+  transform: rotate(66deg);
+}
+
+.laungvage {
+  background-color: transparent;
+  border: 0px;
+
+  position: absolute;
+  width: 28px;
+  height: 16px;
+  left: 110px;
+  top: 950px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.langvage-ger {
+  background-color: transparent;
+  border: 0px;
+
+  position: absolute;
+  width: 27px;
+  height: 16px;
+  left: 150px;
+  top: 950px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.in-the-end {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 625px;
+  top: 950px;
+}
+
+.end-zero {
+  position: absolute;
+  width: 169px;
+  height: 16px;
+  left: 647px;
+  top: 928px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.end {
+  position: absolute;
+  width: 150px;
+  height: 16px;
+  left: 1286px;
+  top: 750px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+
+  transform: rotate(-90deg);
+}
+
+.end-linia {
+  position: absolute;
+  width: 0px;
+  height: 100px;
+  left: 1360px;
+  top: 863px;
+
+  border: 1px solid #929292;
+}

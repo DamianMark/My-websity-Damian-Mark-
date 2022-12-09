@@ -1,0 +1,550 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: linear-gradient(180deg, #2d2d2d 0%, #100d0d 100%);
+}
+
+.img {
+  position: absolute;
+}
+
+.logo_paneli {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  width: 1465px;
+  height: 48px;
+  left: 110px;
+  top: 60px;
+}
+.paneli_ypravlenia {
+  width: 800px;
+  height: 48px;
+  margin-left: 697px;
+  margin-top: -2px;
+  display: flex;
+  justify-content: end;
+  justify-content: space-around;
+}
+
+.fon {
+  color: #ffffff;
+  background-color: transparent;
+  border: transparent;
+  margin-top: 13.5px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+#vipad {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: transparent;
+  background: transparent;
+  border: transparent;
+  color: #ffffff;
+}
+
+.nav {
+  margin: 13px;
+  background-color: transparent;
+}
+
+.nav-a {
+  color: #ffffff;
+}
+
+.nav-ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  position: relative;
+}
+
+.nav-ul-li {
+  display: inline-block;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+/* Hide Dropdowns by Default */
+.nav-ul-ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+  color: #ffffff;
+  width: 150px;
+}
+
+/* Display Dropdowns on Hover */
+.nav-ul-li:hover > ul {
+  display: inherit;
+}
+
+.poisc {
+  margin-left: -100px;
+  background-color: transparent;
+  border: transparent;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.linia {
+  width: 300px;
+}
+
+.verticali {
+  position: absolute;
+  width: 300px;
+  height: 0px;
+  left: 0px;
+  top: 212px;
+
+  border: 1px solid #ffffff;
+}
+
+.zagolovok {
+  position: absolute;
+  width: 350px;
+  height: 94px;
+  left: 314px;
+  top: 170px;
+
+  font-family: "Be Vietnam";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 94px;
+
+  color: #ffffff;
+}
+
+.textour {
+  position: absolute;
+  width: 530px;
+  height: 74px;
+  left: 317px;
+  top: 285px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+
+.iconca1-1 {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 270px;
+  top: 465px;
+}
+
+.iconca1 {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  left: 283px;
+  top: 477px;
+}
+
+.hig {
+  position: absolute;
+  width: 119px;
+  height: 26px;
+  left: 335px;
+  top: 475px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
+
+.texthig {
+  position: absolute;
+  width: 211px;
+  height: 104px;
+  left: 335px;
+  top: 518px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.iconca2-1 {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 270px;
+  top: 661px;
+}
+
+.iconca2 {
+  position: absolute;
+  left: 19.72%;
+  right: 79.03%;
+  top: 65.92%;
+  bottom: 32.33%;
+}
+
+.develop {
+  position: absolute;
+  width: 209px;
+  height: 26px;
+  left: 335px;
+  top: 671px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
+
+.textdev {
+  position: absolute;
+  width: 211px;
+  height: 104px;
+  left: 335px;
+  top: 714px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.iconca3-1 {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 596px;
+  top: 465px;
+}
+
+.iconca3 {
+  position: absolute;
+  left: 42.42%;
+  right: 56.48%;
+  top: 46.58%;
+  bottom: 51.27%;
+}
+
+.creative {
+  position: absolute;
+  width: 205px;
+  height: 26px;
+  left: 661px;
+  top: 475px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
+
+.textcreat {
+  position: absolute;
+  width: 211px;
+  height: 104px;
+  left: 661px;
+  top: 518px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.iconca4-1 {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 596px;
+  top: 661px;
+}
+
+.iconca4 {
+  position: absolute;
+  left: 42.6%;
+  right: 56.69%;
+  top: 65.62%;
+  bottom: 32.23%;
+}
+
+.ux {
+  position: absolute;
+  width: 101px;
+  height: 26px;
+  left: 661px;
+  top: 671px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.textux {
+  position: absolute;
+  width: 211px;
+  height: 104px;
+  left: 661px;
+  top: 714px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.iconca5-1 {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 922px;
+  top: 465px;
+}
+
+.iconca5 {
+  position: absolute;
+  left: 65%;
+  right: 33.71%;
+  top: 46.58%;
+  bottom: 51.36%;
+}
+
+.the {
+  position: absolute;
+  width: 153px;
+  height: 26px;
+  left: 987px;
+  top: 475px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
+
+.textthe {
+  position: absolute;
+  width: 211px;
+  height: 104px;
+  left: 987px;
+  top: 518px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.iconca6-1 {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 931px;
+  top: 661px;
+}
+
+.iconca6 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 943px;
+  top: 673px;
+}
+
+.short {
+  position: absolute;
+  width: 190px;
+  height: 26px;
+  left: 996px;
+  top: 671px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.textshort {
+  position: absolute;
+  width: 211px;
+  height: 104px;
+  left: 996px;
+  top: 714px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.perehod {
+  position: absolute;
+  left: 87.45%;
+  top: 19.14%;
+  bottom: 78.04%;
+  color: #ffffff;
+}
+
+.perehod-centr {
+  position: absolute;
+  width: 72px;
+  left: 1233.9px;
+  top: 167px;
+}
+
+.perehod-centr1 {
+  position: absolute;
+  width: 233px;
+  height: 234px;
+  left: 1150px;
+  top: 93px;
+  transform: rotate(180deg);
+}
+
+.laungvage {
+  background-color: transparent;
+  border: 0px;
+
+  position: absolute;
+  width: 28px;
+  height: 16px;
+  left: 110px;
+  top: 950px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.langvage-ger {
+  background-color: transparent;
+  border: 0px;
+
+  position: absolute;
+  width: 27px;
+  height: 16px;
+  left: 150px;
+  top: 950px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.in-the-end {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 625px;
+  top: 950px;
+}
+
+.end-zero {
+  position: absolute;
+  width: 169px;
+  height: 16px;
+  left: 647px;
+  top: 928px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.end {
+  position: absolute;
+  width: 150px;
+  height: 16px;
+  left: 1286px;
+  top: 750px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ffffff;
+
+  transform: rotate(-90deg);
+}
+
+.end-linia {
+  position: absolute;
+  width: 0px;
+  height: 100px;
+  left: 1360px;
+  top: 863px;
+
+  border: 1px solid #929292;
+}
